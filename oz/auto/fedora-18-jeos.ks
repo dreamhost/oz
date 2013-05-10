@@ -8,7 +8,7 @@ rootpw %ROOTPW%
 firewall --disabled
 authconfig --enableshadow --enablemd5
 selinux --enforcing
-timezone --utc America/New_York
+timezone --utc Etc/UTC
 bootloader --location=mbr
 zerombr
 clearpart --all --drives=vda
